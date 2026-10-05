@@ -1,0 +1,42 @@
+.btn {
+	background-color: #fcb3dd;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 10%; /*This is where the rounded corners come in*/
+}
+
+body {
+	background-color: #e56767; 
+}
+
+table {
+	text-align: left;
+	background-color: white;
+	width: 75%;
+	margin: 12px auto;
+	border-top: 1px solid black;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+td {
+	/* border-bottom: 1px solid black; */ /* I was going to include this but it looks better without*/
+	padding: 0.6em; 
+}
+p { 
+	margin: 12px auto;
+	width: 75%;
+	font-size: 25px;
+	background-color: white; /*this is so I can keep everything consitant*/
+}
+h2 {
+	color: white; 
+}
+.center { /*this is so I can center more genral objects in my website*/
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
